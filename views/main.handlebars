@@ -1,0 +1,20 @@
+<!-- carruxel -->
+{{> country_carrussel}}
+<!-- lista de paises -->
+
+<h2>Similar pro player</h2>
+
+{{#if list_country}} 
+    <ul>
+    {{#each list_country}}
+      <li >{{this.name}}</li>
+      
+    {{/each}}
+
+  </ul>
+ 
+{{/if}}
+
+
+{{> partials_1}}
+{{> partials_2}}

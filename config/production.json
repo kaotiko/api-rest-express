@@ -1,0 +1,6 @@
+{
+    "nombre": "Mi api rest - aplicacion",
+    "dbConfig": {
+        "host": "prod-db-server"
+      }
+}
